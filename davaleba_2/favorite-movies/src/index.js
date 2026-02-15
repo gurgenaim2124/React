@@ -11,24 +11,22 @@ const App = function () {
     { title: "Interstellar", year: 2014, description: "" }
 ]
 
-
-
-
     return (
         <div className='card'>
-        {movies.map((movie) => (
-        <MovieCard
-            title={movie.title}
-            year={movie.year}
-            description={
-            movie.description ? movie.description : "No description"
+            {movies.map((movie) => (
+                <MovieCard
+                    title={movie.title}
+                    year={movie.year}
+                    description={
+                    movie.description ? movie.description : "No description"
+                    }
+                />
+                )
+            )
         }
-        />
-    ))}
-    </div>
-);
+        </div>
+    );
 };
-
 
 
 const root = ReactDOM.createRoot(document.querySelector('#root'));
