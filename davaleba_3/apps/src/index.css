@@ -1,0 +1,23 @@
+.container {
+    border-radius: 10px;
+    background-color: aqua;
+    width: 250px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+button {
+    width: 70px;
+    background-color: bisque;
+    border-radius: 5px;
+    height: 30px; 
+}
+
+p {
+    width: 100px;
+    background-color: rgba(222, 222, 227, 0.774);
+    border-radius: 2px;
+    border: 1px solid black;
+    color: red;
+}
+
